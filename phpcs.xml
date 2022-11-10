@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ruleset name="Psr7 PHP code">
+    <description>PHP code</description>
+    <arg name="colors"/>
+    <arg value="p"/>
+    <rule ref="PSR2"/>
+    <rule ref="Generic.Commenting.Todo.CommentFound">
+        <severity phpcbf-only="true">0</severity>
+    </rule>
+    <rule ref="Generic.Arrays.DisallowLongArraySyntax"/>
+    <file>src</file>
+    <file>tests</file>
+</ruleset>

@@ -1,0 +1,9 @@
+parameters:
+  level: max
+  inferPrivatePropertyTypeFromConstructor: true
+  paths:
+    - src
+  ignoreErrors:
+        -
+            message: '#Result of && is always false#'
+            path: %currentWorkingDirectory%/src/Request.php

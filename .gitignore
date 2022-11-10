@@ -1,0 +1,6 @@
+vendor
+composer.lock
+.git
+.idea
+.phpunit.result.cache
+.tmp
